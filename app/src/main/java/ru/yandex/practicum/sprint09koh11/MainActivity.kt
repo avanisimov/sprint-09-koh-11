@@ -48,8 +48,8 @@ class MainActivity : AppCompatActivity() {
         val editText = findViewById<EditText>(R.id.edit_text)
         editText.addTextChangedListener(PhoneNumberFormattingTextWatcher())
         editText.postDelayed({
-            editText.hideKeyboard()
-        }, 3000)
+            editText.showKeyboard()
+        }, 2000)
 //        editText.addTextChangedListener(object :TextWatcher {
 //            var isInEditableMode : Boolean = false
 //            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -135,6 +135,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun View.showKeyboard() {
+    requestFocus()
     val imm = this.context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager?
     imm?.showSoftInput(this, InputMethodManager.SHOW_IMPLICIT)
 }
