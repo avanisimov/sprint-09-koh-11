@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sprint09koh11" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="text_color_header">#f0f</item>
+        <item name="text_color_description">#fff</item>
+        <item name="background_color_description">#0ff</item>
+        <item name="background_color_retry">#ff0</item>
+        <item name="my_font">@font/orange_juice</item>
+    </style>
+
+    <style name="Theme.Sprint09koh11" parent="Base.Theme.Sprint09koh11" />
+
+    <style name="Theme.Sprint09koh11.Version2" parent="Base.Theme.Sprint09koh11" >
+        <item name="text_color_header">#4a8</item>
+        <item name="text_color_description">#4f9</item>
+        <item name="background_color_description">#7931</item>
+        <item name="background_color_retry">#FFcc31cc</item>
+        <item name="my_font">@font/dancing_script</item>
+<!--        rgb-->
+<!--        argb-->
+<!--        rrggbb-->
+<!--        aarrggbb-->
+    </style>
+</resources>

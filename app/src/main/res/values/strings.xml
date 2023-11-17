@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sprint09koh11</string>
+
+    <string name="error_title">Error</string>
+    <string name="error_description">Server is down</string>
+    <string name="error_retry">Retry</string>
+</resources>

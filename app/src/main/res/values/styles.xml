@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Error" parent="">
+        <item name="android:layout_marginVertical">@dimen/error_vertical_margin</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Text" parent="">
+        <item name="fontFamily">?attr/my_font</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Text.Header">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Text.Header.Pink">
+        <item name="android:textColor">?attr/text_color_header</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Text.Description">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Text.Description.Blue">
+        <item name="android:background">?attr/background_color_description</item>
+        <item name="android:textColor">?attr/text_color_description</item>
+    </style>
+
+    <style name="Widget.Sprint09koh11.Button" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">?attr/my_font</item>
+        <item name="backgroundTint">?attr/background_color_retry</item>
+    </style>
+
+</resources>

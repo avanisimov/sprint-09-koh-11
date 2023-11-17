@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text_color_header" />
+    <attr name="text_color_description" />
+    <attr name="background_color_description" />
+    <attr name="background_color_retry" />
+
+    <attr name="my_font"/>
+
+</resources>
